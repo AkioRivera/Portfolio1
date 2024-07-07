@@ -1,0 +1,295 @@
+<template>
+
+
+    <div class="container mx-auto my-60">
+        <div>
+
+            <div class="bg-white relative shadow rounded-lg w-[320px] ">
+                <div class="flex justify-center">
+                    <img src="../assets/image/avatar1.png" alt=""
+                        class="border-4 rounded-full mx-auto absolute -top-20 w-32 h-32 shadow-md  border-white transition duration-200 transform hover:scale-110">
+                </div>
+
+                <div class="mt-16">
+                    <h1 class="font-bold text-center text-2xl text-gray-800 font-serif">Noelito Rivera</h1>
+                    <p class="text-center text-sm text-gray-400 font-medium">Developer</p>
+                    <p>
+                        <span>
+
+                        </span>
+                    </p>
+
+                    <div class="flex justify-center items-center mt-4 space-x-2">
+                        <button
+                            class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+                            <svg class="transition-all duration-300 group-hover:scale-110"
+                                xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72"
+                                fill="none">
+                                <path
+                                    d="M46.4927 38.6403L47.7973 30.3588H39.7611V24.9759C39.7611 22.7114 40.883 20.4987 44.4706 20.4987H48.1756V13.4465C46.018 13.1028 43.8378 12.9168 41.6527 12.8901C35.0385 12.8901 30.7204 16.8626 30.7204 24.0442V30.3588H23.3887V38.6403H30.7204V58.671H39.7611V38.6403H46.4927Z"
+                                    fill="#337FFF" />
+                            </svg>
+                        </button>
+
+                        <button
+                            class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+                            <svg class="rounded-md transition-all duration-300 group-hover:scale-110"
+                                xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M14.6975 11C12.6561 11 11 12.6057 11 14.5838V57.4474C11 59.4257 12.6563 61.03 14.6975 61.03H57.3325C59.3747 61.03 61.03 59.4255 61.03 57.4468V14.5838C61.03 12.6057 59.3747 11 57.3325 11H14.6975ZM26.2032 30.345V52.8686H18.7167V30.345H26.2032ZM26.6967 23.3793C26.6967 25.5407 25.0717 27.2703 22.4615 27.2703L22.4609 27.2701H22.4124C19.8998 27.2701 18.2754 25.5405 18.2754 23.3791C18.2754 21.1686 19.9489 19.4873 22.5111 19.4873C25.0717 19.4873 26.6478 21.1686 26.6967 23.3793ZM37.833 52.8686H30.3471L30.3469 52.8694C30.3469 52.8694 30.4452 32.4588 30.3475 30.3458H37.8336V33.5339C38.8288 31.9995 40.6098 29.8169 44.5808 29.8169C49.5062 29.8169 53.1991 33.0363 53.1991 39.9543V52.8686H45.7133V40.8204C45.7133 37.7922 44.6293 35.7269 41.921 35.7269C39.8524 35.7269 38.6206 37.1198 38.0796 38.4653C37.8819 38.9455 37.833 39.6195 37.833 40.2918V52.8686Z"
+                                    fill="#006699" />
+                            </svg>
+                        </button>
+                        <button
+                            class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+                            <svg class="rounded-md transition-all duration-300 group-hover:scale-110" width="28"
+                                height="28" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.0065 56.1236H21.4893V35.5227L9.37109 26.4341V52.4881C9.37109 54.4997 11.001 56.1236 13.0065 56.1236Z"
+                                    fill="#4285F4" />
+                                <path
+                                    d="M50.5732 56.1236H59.056C61.0676 56.1236 62.6914 54.4937 62.6914 52.4881V26.4341L50.5732 35.5227"
+                                    fill="#34A853" />
+                                <path
+                                    d="M50.5732 19.7693V35.5229L62.6914 26.4343V21.587C62.6914 17.0912 57.5594 14.5282 53.9663 17.2245"
+                                    fill="#FBBC04" />
+                                <path d="M21.4893 35.5227V19.769L36.0311 30.6754L50.5729 19.769V35.5227L36.0311 46.429"
+                                    fill="#EA4335" />
+                                <path
+                                    d="M9.37109 21.587V26.4343L21.4893 35.5229V19.7693L18.0962 17.2245C14.4971 14.5282 9.37109 17.0912 9.37109 21.587Z"
+                                    fill="#C5221F" />
+                            </svg>
+                        </button>
+
+                        <button
+                            class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+                            <svg class="rounded-md transition-all duration-300 group-hover:scale-110" width="28"
+                                height="28" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M40.3522 25.55C40.3522 29.4089 38.8124 33.1097 36.0717 35.8384C33.3309 38.5671 29.6136 40.1 25.7376 40.1C21.8616 40.1 18.1443 38.5671 15.4036 35.8384C12.6628 33.1097 11.123 29.4089 11.123 25.55C11.123 21.6911 12.6628 17.9902 15.4036 15.2616C18.1443 12.5329 21.8616 11 25.7376 11C29.6136 11 33.3309 12.5329 36.0717 15.2616C38.8124 17.9902 40.3522 21.6911 40.3522 25.55Z"
+                                    fill="url(#paint0_linear_7092_54518)" />
+                                <path
+                                    d="M60.7196 46.445C60.7196 48.3564 60.3415 50.2491 59.6068 52.015C58.8721 53.7809 57.7952 55.3854 56.4376 56.737C55.0801 58.0885 53.4684 59.1606 51.6947 59.8921C49.921 60.6235 48.0199 61 46.1 61C42.2227 61 38.5041 59.4665 35.7624 56.737C33.0207 54.0074 31.4805 50.3052 31.4805 46.445C31.4805 42.5848 33.0207 38.8827 35.7624 36.1531C38.5041 33.4235 42.2227 31.89 46.1 31.89C48.0199 31.89 49.921 32.2665 51.6947 32.9979C53.4684 33.7294 55.0801 34.8015 56.4376 36.1531C57.7952 37.5046 58.8721 39.1092 59.6068 40.8751C60.3415 42.641 60.7196 44.5336 60.7196 46.445Z"
+                                    fill="url(#paint1_linear_7092_54518)" />
+                                <path opacity="0.05" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11.1768 26.795C11.4038 29.5441 12.406 32.1727 14.0672 34.3762C15.7285 36.5797 17.9809 38.2679 20.5633 39.2451C23.1457 40.2224 25.9525 40.4487 28.6584 39.8978C31.3643 39.347 33.8585 38.0415 35.8521 36.1327C37.8457 34.2239 39.257 31.7899 39.9225 29.1127C40.5879 26.4356 40.4804 23.6248 39.6122 21.0062C38.744 18.3877 37.1508 16.0684 35.0171 14.3172C32.8835 12.566 30.2967 11.4546 27.5566 11.1117C23.8361 12.3549 20.4375 14.4061 17.6053 17.1179C14.7731 19.8296 12.5777 23.1346 11.1768 26.795Z"
+                                    fill="black" />
+                                <path opacity="0.05" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M60.6811 45.4C60.4902 42.6174 59.5055 39.9476 57.8434 37.7064C56.1813 35.4652 53.9113 33.7464 51.302 32.7534C48.6928 31.7603 45.8534 31.5345 43.1197 32.1027C40.386 32.6708 37.8724 34.0092 35.8762 35.9594C33.88 37.9097 32.4848 40.3902 31.8555 43.1076C31.2263 45.825 31.3893 48.6656 32.3254 51.2933C33.2615 53.9211 34.9315 56.226 37.1377 57.9356C39.344 59.6451 41.9943 60.6877 44.7751 60.94C48.394 59.6528 51.6902 57.5967 54.4363 54.9135C57.1824 52.2303 59.313 48.9839 60.6811 45.3983V45.4Z"
+                                    fill="black" />
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11.8604 30.1216C12.628 32.4673 13.9786 34.5801 15.786 36.2626C17.5934 37.9451 19.7984 39.1422 22.1948 39.742C24.5913 40.3418 27.1009 40.3246 29.4889 39.6922C31.877 39.0597 34.0654 37.8326 35.8496 36.1257C37.6337 34.4187 38.9554 32.2876 39.6908 29.9317C40.4263 27.5758 40.5516 25.072 40.0549 22.6546C39.5583 20.2372 38.456 17.9851 36.8511 16.1089C35.2462 14.2327 33.1911 12.7938 30.8781 11.9266C26.32 12.8752 22.1204 15.0838 18.758 18.3008C15.3955 21.5178 13.0055 25.6137 11.8604 30.1216Z"
+                                    fill="black" />
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M60.0178 41.98C59.2615 39.6066 57.9097 37.466 56.0911 35.7619C54.2726 34.0578 52.0477 32.8469 49.6282 32.2444C47.2088 31.6419 44.6752 31.6678 42.2686 32.3198C39.8621 32.9717 37.6625 34.2279 35.8793 35.9689C34.0961 37.7098 32.7885 39.8777 32.081 42.266C31.3735 44.6544 31.2896 47.1839 31.8374 49.6138C32.3851 52.0437 33.5462 54.2932 35.2101 56.1483C36.8741 58.0033 38.9856 59.4021 41.3437 60.2117C45.8435 59.203 49.9734 56.9634 53.2714 53.7435C56.5694 50.5236 58.9054 46.4505 60.0178 41.98Z"
+                                    fill="black" />
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.3975 31.5016C13.3484 33.6419 14.801 35.522 16.6327 36.9832C18.4644 38.4444 20.6214 39.4437 22.9212 39.8967C25.2211 40.3497 27.5963 40.243 29.8462 39.5857C32.0961 38.9284 34.1545 37.7397 35.8475 36.1203C37.5406 34.5008 38.8185 32.498 39.5733 30.2811C40.328 28.0643 40.5375 25.6985 40.184 23.3838C39.8304 21.069 38.9243 18.8733 37.5421 16.9821C36.1599 15.0909 34.3423 13.5599 32.2428 12.5183C27.3875 13.2732 22.881 15.4983 19.3321 18.8931C15.7831 22.288 13.3626 26.6889 12.3975 31.5016Z"
+                                    fill="black" />
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M59.4788 40.5717C58.5328 38.4066 57.0747 36.5033 55.2299 35.0253C53.385 33.5473 51.2086 32.5387 48.8874 32.0863C46.5663 31.6338 44.1699 31.7509 41.9041 32.4276C39.6383 33.1043 37.5708 34.3203 35.8792 35.9712C34.1877 37.622 32.9226 39.6584 32.1927 41.9054C31.4628 44.1524 31.2899 46.5427 31.6889 48.8712C32.0878 51.1996 33.0467 53.3965 34.4831 55.2731C35.9195 57.1497 37.7905 58.65 39.9354 59.645C44.7482 58.8281 49.1973 56.5648 52.6891 53.157C56.1809 49.7492 58.5494 45.3589 59.4788 40.5717Z"
+                                    fill="black" />
+                                <path
+                                    d="M59.0711 36.1084C59.0711 39.1347 58.4724 42.1313 57.3092 44.9273C56.1459 47.7232 54.4409 50.2637 52.2914 52.4036C50.142 54.5436 47.5903 56.241 44.7819 57.3992C41.9735 58.5573 38.9635 59.1534 35.9238 59.1534C32.884 59.1534 29.874 58.5573 27.0656 57.3992C24.2573 56.241 21.7055 54.5436 19.5561 52.4036C17.4066 50.2637 15.7016 47.7232 14.5384 44.9273C13.3751 42.1313 12.7764 39.1347 12.7764 36.1084C12.7764 33.082 13.3751 30.0854 14.5384 27.2894C15.7016 24.4935 17.4066 21.953 19.5561 19.8131C21.7055 17.6732 24.2573 15.9757 27.0656 14.8176C29.874 13.6594 32.884 13.0634 35.9238 13.0634C38.9635 13.0634 41.9735 13.6594 44.7819 14.8176C47.5903 15.9757 50.142 17.6732 52.2914 19.8131C54.4409 21.953 56.1459 24.4935 57.3092 27.2894C58.4724 30.0854 59.0711 33.082 59.0711 36.1084Z"
+                                    fill="url(#paint2_linear_7092_54518)" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M29.4151 35.3084C28.4797 34.6934 27.6991 33.8709 27.1343 32.905C26.5889 31.8846 26.3197 30.7396 26.3534 29.5834C26.3121 28.116 26.8134 26.6849 27.7616 25.5634C28.7471 24.4371 30.0136 23.5918 31.4324 23.1134C32.9754 22.5688 34.6012 22.2954 36.2377 22.305C37.3084 22.2949 38.378 22.3769 39.4346 22.55C40.1909 22.6667 40.9337 22.8582 41.6521 23.1217C42.3117 23.3447 42.9072 23.7245 43.3873 24.2284C43.7411 24.6429 43.9315 25.172 43.9229 25.7167C43.9355 25.9997 43.8922 26.2823 43.7954 26.5486C43.6987 26.8148 43.5504 27.0594 43.359 27.2684C43.1778 27.4609 42.958 27.6131 42.7139 27.7147C42.4697 27.8164 42.2068 27.8654 41.9424 27.8584C41.5786 27.8554 41.2196 27.7747 40.8895 27.6217C40.0761 27.258 39.2381 26.9517 38.3818 26.705C37.5935 26.4974 36.7809 26.3965 35.9657 26.405C34.9033 26.366 33.8522 26.6345 32.939 27.1784C32.5537 27.4122 32.2383 27.7452 32.0258 28.1425C31.8133 28.5397 31.7115 28.9867 31.731 29.4367C31.7254 30.0275 31.9505 30.5972 32.3584 31.025C32.8431 31.5276 33.416 31.9371 34.0486 32.2334C34.7572 32.5845 35.8139 33.05 37.2188 33.63C37.3744 33.6792 37.5261 33.74 37.6726 33.8117C39.0436 34.3534 40.3581 35.0283 41.597 35.8267C42.5755 36.464 43.4006 37.3098 44.013 38.3034C44.6161 39.3476 44.9181 40.5382 44.8857 41.7434C44.9363 43.2189 44.513 44.672 43.6776 45.89C42.827 47.0433 41.6503 47.9157 40.2989 48.395C38.6702 48.9763 36.9491 49.2564 35.2199 49.2217C32.8437 49.3048 30.4788 48.8578 28.2972 47.9134C27.7395 47.6653 27.2505 47.2855 26.8723 46.8067C26.5583 46.368 26.3955 45.8392 26.4085 45.3C26.3929 45.0157 26.4393 44.7313 26.5444 44.4666C26.6495 44.2018 26.8109 43.9631 27.0175 43.7667C27.4504 43.388 28.0125 43.1899 28.5875 43.2134C29.2282 43.2221 29.8576 43.3838 30.4229 43.685C31.1259 44.0361 31.6804 44.2995 32.0864 44.475C32.5501 44.6689 33.0304 44.8207 33.5214 44.9284C34.1268 45.061 34.7453 45.1248 35.3651 45.1184C36.4611 45.1965 37.5518 44.9061 38.4635 44.2934C38.8048 44.0266 39.0776 43.6825 39.2592 43.2895C39.4408 42.8964 39.5261 42.4659 39.508 42.0334C39.509 41.4201 39.275 40.8297 38.854 40.3834C38.2975 39.8095 37.6461 39.3359 36.9285 38.9834C36.0798 38.5367 34.8862 37.9923 33.3478 37.35C31.972 36.8024 30.6545 36.1184 29.4151 35.3084Z"
+                                    fill="white" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_7092_54518" x1="23.4584" y1="11.1767" x2="28.0069"
+                                        y2="39.9249" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0.012" stop-color="#00B7F0" />
+                                        <stop offset="0.339" stop-color="#009DE5" />
+                                        <stop offset="0.755" stop-color="#0082D9" />
+                                        <stop offset="1" stop-color="#0078D4" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_7092_54518" x1="33.446" y1="53.7417" x2="58.7384"
+                                        y2="39.124" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#0078D4" />
+                                        <stop offset="0.37" stop-color="#007AD5" />
+                                        <stop offset="0.573" stop-color="#0082D9" />
+                                        <stop offset="0.735" stop-color="#0090DF" />
+                                        <stop offset="0.875" stop-color="#00A3E7" />
+                                        <stop offset="1" stop-color="#00BCF2" />
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_7092_54518" x1="26.8904" y1="20.4817" x2="49.9459"
+                                        y2="60.4589" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#00B7F0" />
+                                        <stop offset="1" stop-color="#007CC1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </button>
+
+                    </div>
+                    <br>
+                    <div class="w-full">
+                        <h3 class="font-medium text-gray-900 text-left px-6">Personal Information</h3>
+                        <div class="mt-10 w-full flex flex-col items-center justify-center overflow-hidden text-sm">
+                            <a href="#"
+                                class="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150">
+                                <div class="flex items-center space-x-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                                    </svg>
+                                    <div>
+                                        <div class="flex flex-col">
+                                            <span class="flex-1 text-gray-900 font-medium">Phone</span>
+                                            <span class="flex-1 text-gray-900 font-medium">+63 915 912 4940</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"
+                                class="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150">
+                                <div class="flex items-center space-x-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                        class="size-6">
+                                        <path
+                                            d="M12.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM7.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM8.25 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM9.75 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM12.75 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM14.25 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+
+                                    <div>
+                                        <div class="flex flex-col">
+                                            <span class="flex-1 text-gray-900 font-medium">Birthday</span>
+                                            <span class="flex-1 text-gray-900 font-medium">September 30, 2002</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"
+                                class="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150">
+                                <div class="flex items-center space-x-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                    </svg>
+
+                                    <div>
+                                        <div class="flex flex-col">
+                                            <span class="flex-1 text-gray-900 font-medium">Location</span>
+                                            <span class="flex-1 text-gray-900 font-medium">Binagonan, Rizal</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#"
+                                class="w-full border-t border-gray-100 text-gray-600 py-4 pl-6 pr-3 w-full block hover:bg-gray-100 transition duration-150">
+                                <div class="flex items-center space-x-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
+                                    </svg>
+
+                                    <div>
+                                        <div class="flex flex-col">
+                                            <span class="flex-1 text-gray-900 font-medium">Email</span>
+                                            <span
+                                                class="flex-1 text-gray-900 font-medium">noelitorivera1@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <button
+                                class="bg-blue-500 mr-2 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded mb-4">
+                                Download CV
+                            </button>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="flex items-start justify-center mx-auto top-0 mt-96 absolute left-0 right-7  ml-96">
+                <div class="bg-white relative shadow rounded-lg w-[60rem] h-[30rem]">
+                    <div class="p-8">
+                        <div class="flex felx-col items-center justify-center">
+                            <span class="rounded-full bg-indigo-500 px-2 py-1 text-white uppercase text-sm"> About
+                            </span>
+                        </div>
+                        <h1 class="text-4xl font-medium text-gray-700 text-center mt-6"> About Me
+                        </h1>
+                        <p class="text-center mt-6 text-lg font-light text-gray-500"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, quod! Soluta cumque obcaecati, dolorum amet vero neque velit sapiente molestias illo repellat, deserunt consectetur suscipit iure dignissimos provident omnis ipsa? </p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3">
+                        <div class="p-8">
+                            <div
+                                class="bg-indigo-100 rounded-full w-16 h-16 flex justify-center items-center text-indigo-500 shadow-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                        clip-rule="evenodd" />
+                                </svg> </div>
+                            <h2 class="uppercase mt-6 text-indigo-500 font-medium mb-3"> Social conversations </h2>
+                            <p class="font-light text-sm text-gray-500 mb-3"> We get insulted by others, lose trust for
+                                those others. We get back stabbed by friends. It becomes harder for us to give others a
+                                hand. </p> <a class="text-indigo-500 flex items-center hover:text-indigo-600" href="/">
+                                More about us icon <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                        clip-rule="evenodd" />
+                                </svg> </a>
+                        </div>
+                        <div class="p-8">
+                            <div
+                                class="bg-green-100 rounded-full w-16 h-16 flex justify-center items-center text-green-500 shadow-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                        clip-rule="evenodd" />
+                                </svg> </div>
+                            <h2 class="uppercase mt-6 text-green-500 font-medium mb-3"> Social conversations </h2>
+                            <p class="font-light text-sm text-gray-500 mb-3"> We get insulted by others, lose trust for
+                                those others. We get back stabbed by friends. It becomes harder for us to give others a
+                                hand. </p> <a class="text-green-500 flex items-center hover:text-green-600" href="/">
+                                More about us icon <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                        clip-rule="evenodd" />
+                                </svg> </a>
+                        </div>
+                        <div class="p-8">
+                            <div
+                                class="bg-red-100 rounded-full w-16 h-16 flex justify-center items-center text-red-500 shadow-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                        clip-rule="evenodd" />
+                                </svg> </div>
+                            <h2 class="uppercase mt-6 text-red-500 font-medium mb-3"> Social conversations </h2>
+                            <p class="font-light text-sm text-gray-500 mb-3"> We get insulted by others, lose trust for
+                                those others. We get back stabbed by friends. It becomes harder for us to give others a
+                                hand. </p> <a class="text-red-500 flex items-center hover:text-red-600" href="/"> More
+                                about us icon <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                        clip-rule="evenodd" />
+                                </svg> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</template>
