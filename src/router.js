@@ -2,11 +2,12 @@ import { createRouter, createWebHistory } from 'vue-router';
 import About from './components/About.vue';
 import Work from './components/Work.vue';
 import Skill from './components/Skill.vue';
+import Footer from './components/Footer.vue'
 
 const routes = [
 
   {
-    path: '/',
+    path: '/about',
     name: 'About',
     component: About
   },
